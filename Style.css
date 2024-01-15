@@ -1,13 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #000;
+    background-image: url('galaxy-background.jpg'); /* A dark, starry background image */
+    color: #fff;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff6a00; /* Solar flare orange */
     text-align: center;
     padding: 1em 0;
 }
@@ -23,17 +25,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ff6a00; /* Solar flare orange */
     text-decoration: none;
 }
 
 main {
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff6a00; /* Solar flare orange */
     text-align: center;
     padding: 1em 0;
     position: fixed;
